@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Random destination generator with map and facts from the CIA",
   "main": "index.js",
+  "bin": {
+    "travel-spin": "index.js"
+  },
   "scripts": {
     "test": "standard index.js",
     "start": "node index.js"
